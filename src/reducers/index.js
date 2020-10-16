@@ -1,4 +1,3 @@
-import { act } from 'react-dom/test-utils';
 import { ADD_FEATURE, REMOVE_FEATURE } from '../actions'
 
 const initialState = {

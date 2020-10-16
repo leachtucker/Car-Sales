@@ -11,7 +11,7 @@ import Total from './components/Total';
 class App extends React.Component {
   render() {
     return (
-      <div className="boxes">
+      <div className="container">
         <div className="box">
           <Header car={this.props.car} />
           <AddedFeatures car={this.props.car} removeFeature={this.props.removeFeature} />
